@@ -3,3 +3,17 @@
 # script assumes user is in www-data or similar group
 # script takes a project name and creates a git --bare git repo and web dir with
 # hooks to check out working tree into web dir
+#
+# example sh gitquick.sh project project.git
+# the script will create to folders in the directory the script is executed
+# project and project.git
+# script will also create /var/www/html/project
+#
+# project would be the working dir
+# after adding and comminting files in your working dir
+# git push project master or other branch if applies
+# after oush hooks will check out working branch to /var/www/html/project
+# and automaticly update web dir with latest code changes
+# --bare is the git bare dir used for tracking the changes of the project
+# no working files will reside in this file
+#
