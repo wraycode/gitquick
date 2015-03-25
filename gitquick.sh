@@ -7,6 +7,7 @@ if [ $# -lt 2 ]
     echo "# need two args one for project name ond one for git --bare dir
           # example: gitquick project project.git
           "
+          exit
 fi
 
 # $project is your working directory 
