@@ -1,4 +1,4 @@
-# utility script intended for quickly deploying git projects in a dev enviroment
+# utility script intended for quickly deploying git version controlled projects in a dev enviroment
 # script may need to be edited to meet your needs
 # script assumes user is in www-data or similar group
 # script takes a project name and creates a git --bare git repo and web dir with
