@@ -17,4 +17,6 @@
 # and automaticly update web dir with latest code changes
 # --bare is the git bare dir used for tracking the changes of the project
 # no working files will reside in this file
+# if you want you mirror dir to be different than /var/www/html edit tha path,
+# future versions may include a third optional argument for this
 #
