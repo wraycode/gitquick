@@ -5,7 +5,7 @@ BARE=$2
 if [ $# -lt 2 ]
   then
     echo "# need two args one for project name ond one for git --bare dir
-          # example: gitstart project project.git
+          # example: gitquick project project.git
           "
 fi
 
