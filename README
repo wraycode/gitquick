@@ -13,7 +13,7 @@
 # project would be the working dir
 # after adding and comminting files in your working dir
 # git push project master or other branch if applies
-# after oush hooks will check out working branch to /var/www/html/project
+# after push hooks will check out working branch to /var/www/html/project
 # and automaticly update web dir with latest code changes
 # --bare is the git bare dir used for tracking the changes of the project
 # no working files will reside in this file
