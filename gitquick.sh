@@ -18,7 +18,8 @@ echo "Creating directories "
 echo | mkdir "$BARE" || exit
 echo | mkdir "$PROJECT" || exit
 
-# create web dir
+# create web dir this will be our mirror dir 
+# edit this to change the path of your mirror dir
 echo "creating web dir /var/www/html/"$PROJECT
 echo | mkdir "/var/www/html/"$PROJECT || exit 
 
